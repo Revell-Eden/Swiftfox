@@ -1,0 +1,76 @@
+.banner {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 3px solid #000;
+}
+.navigation {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.navigation ul {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.navigation ul li, .navigation li {
+    list-style: none;
+    background-color: #fff;
+    border-right: 2px solid #000;
+    text-align: center;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 0.5em 1em;
+}
+.navigation ul li a:hover {
+    color: rgb(116, 116, 116);
+    background-color: rgb(236, 236, 236);
+}
+.logo {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #fff;
+}
+.clickable {
+    background-color: #fff;
+    padding-top: 0;
+}
+.logoAnchor{
+    width: 3em;
+    height: 4em;
+}
+.anchor {
+    padding: 0;
+}
+.logo {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+}
+.home {
+    width: 3em;
+    height: 4em;
+}
+.logo {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #fff;
+}
+h1, p {
+    color: #000;
+    background-color: #fff;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    padding: 0.25em;
+    height: 1.5em;
+}
+
