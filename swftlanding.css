@@ -83,3 +83,23 @@ label {
     position: absolute;
     top: 60em;
 }
+.carosel {
+    display: flex;
+}
+.rotateGallery {
+    border-radius: 50%;
+    width: 2em;
+    height: 3em;
+}
+.productDisplay {
+    padding: 0.5em;
+    display: flex;
+}
+.caritem {
+    padding: 0.5em;
+    background-color: rgb(226, 225, 225);
+    margin-right: 0.5em;
+}
+.carImg {
+    width: 6em;
+}
