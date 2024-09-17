@@ -53,7 +53,7 @@ section {
 }
 .container {
     margin-bottom: 0.5em;
-    background-color: #333;
+    background-color: #fff;
     display: flex;
 }
 label {
@@ -67,7 +67,7 @@ label {
     display: flex;
     flex-wrap: wrap;
     padding: 0.5em;
-    background-color: #333;
+    background-color: #fff;
 }
 .galleryItem {
     width: 12.5em;
@@ -82,4 +82,37 @@ label {
 .overlay {
     position: absolute;
     top: 60em;
+}
+.carousel {
+    display: flex;
+}
+.rotateGallery {
+    border-radius: 50%;
+    width: 2em;
+    height: 3em;
+}
+.productDisplay {
+    padding: 0.5em;
+    display: flex;
+    width: 24em;
+    overflow: hidden;
+}
+.caritem {
+    padding: 0.5em;
+    background-color: rgb(226, 225, 225);
+    margin-right: 0.5em;
+}
+.carImg {
+    width: 6em;
+}
+#active {
+    display: block;
+}
+#passive {
+    display: none;
+}
+#sidebar {
+    width: 30%;
+    height: 100vh;
+    display: none;
 }
